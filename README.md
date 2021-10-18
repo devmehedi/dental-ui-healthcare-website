@@ -1,10 +1,21 @@
 # Getting Started with Dental Ui Health Care
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with (https://dental-ui-healthcare.web.app/).
 
-## Available Scripts
+![alt text](https://www.mdcenteroms.com/wp-content/uploads/2019/09/Patient-Undergoing-Tooth-Extraction-in-Dental-Office.jpg)
 
-In the project directory, you can run:
+
+## Description
+
+Welcome everyone to the website. You have already seen the title and understood that it is a related website! This is a unique dental health care where you will get all kinds of dental services and treatment is provided by different types of experienced doctors and you can easily take their appointments from here.And you can easily learn about the service from here.Where there are experienced doctors from different countries who serve with great sincerity  
+
+### Provided Servicess
+1. On this site you can see what services are provided here.
+2. You must provide your information in order to receive services on this site.
+3. You can easily make an appointment with an experienced doctor from this site.
+4. The services are arranged in such a way that it is easy for you to determine what kind of treatment you want to receive.
+5. You can easily get the affidavits of doctors from different countries from here
+
 
 ### `npm start`
 
