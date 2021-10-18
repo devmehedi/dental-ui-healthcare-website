@@ -6,7 +6,7 @@ const Header = () => {
     const { user, logOut } = useAuth();
     return (
         <>
-            <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg" >
+            <Navbar className="nav" bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg" >
                 <Container>
                     <Navbar.Brand href="#home">Dental Ui Healthcare</Navbar.Brand>
                     <Navbar.Toggle />
