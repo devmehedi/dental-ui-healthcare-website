@@ -1,0 +1,25 @@
+.service{
+    border: 3px solid rgb(0, 255, 64);
+    border-radius: 20px;
+    background-color: #F9F9F9;
+    color: #636e72;
+    padding: 10px;
+}
+.service h3{
+    font-style: italic;
+}
+.service:hover{
+    background-color: #55efc4;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+    border: 3px solid #ffeaa7;
+    font-size: large;
+    font-style: italic;
+}
+
+
+.service:hover img{
+    transform: scale(0.6);
+    transition: 2s;
+}

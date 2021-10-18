@@ -4,7 +4,8 @@ const firebaseConfig = {
     projectId: "dental-ui-healthcare",
     storageBucket: "dental-ui-healthcare.appspot.com",
     messagingSenderId: "374456114990",
-    appId: "1:374456114990:web:a8c3a1d7fab79d307fe4bf"
+    appId: "1:374456114990:web:a8c3a1d7fab79d307fe4bf",
+
 };
 
 export default firebaseConfig;

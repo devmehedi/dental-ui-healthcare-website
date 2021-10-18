@@ -1,0 +1,22 @@
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin: 10px;
+}
+.service-title{
+    margin: 20px;
+    padding: 20px;
+    background-color: #55efc4;
+    color: #636e72;
+    font-size: 20px;
+    font-weight: 800;
+}
+.service-des{
+    font-weight: 800;
+}
+.service-container img{
+    width: 200px;
+    margin: 10px;
+    border-radius: 20px;
+}
