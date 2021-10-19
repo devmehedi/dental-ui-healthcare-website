@@ -1,3 +1,24 @@
 .nav{
+    color: black;
+}
+.navbg{
     color: white;
+    background-color: #575fcf;
+}
+.nav:hover{
+    background-color: #55efc4;
+    color: white;
+    border-radius: 20px;
+    transition: 1s;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    width: 80px;
+}
+.logout{
+    background-color: yellow;
+    color: gray;
+    font-weight: 700;
+    margin-right: 5px;
 }
