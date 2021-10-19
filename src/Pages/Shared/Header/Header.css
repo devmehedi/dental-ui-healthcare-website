@@ -1,9 +1,9 @@
 .nav{
-    color: black;
+    color: teal;
 }
 .navbg{
     color: white;
-    background-color: #575fcf;
+    background-color: peachpuff;
 }
 .nav:hover{
     background-color: #55efc4;
@@ -19,6 +19,11 @@
 .logout{
     background-color: yellow;
     color: gray;
-    font-weight: 700;
+    font-weight: 400;
     margin-right: 5px;
+}
+.user{
+    color: teal;
+    font-size: 20px;
+    font-weight: 500;
 }

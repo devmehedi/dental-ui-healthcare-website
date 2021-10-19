@@ -3,7 +3,6 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
 import Services from './Pages/Services/Services';
 import About from './Pages/About/About';
 import NotFound from './Pages/NotFound/NotFound'
@@ -11,9 +10,10 @@ import Footer from './Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 import AuthProvider from './contexts/AuthProvider';
 import Appointment from './Pages/Appointment/Appointment';
-import PatientForm from './Pages/PatientForm/PatientForm';
 import Login from './Login/Firebase/Login';
 import Home from './Pages/Home/Home';
+import ContactUs from './Pages/ContactUs/ContactUs';
+import PrivateRoute from './Login/PrivateRoute/PrivateRoute';
 function App() {
   return (
     <div className="App">
@@ -24,17 +24,17 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/services">
-              <Services></Services>
-            </Route>
-            <Route path="/patientform">
-              <PatientForm></PatientForm>
-            </Route>
-            <Route path="/appointment">
-              <Appointment></Appointment>
-            </Route>
             <Route path="/about">
               <About></About>
+            </Route>
+            <PrivateRoute path="/services">
+              <Services></Services>
+            </PrivateRoute>
+            <PrivateRoute path="/appointment">
+              <Appointment></Appointment>
+            </PrivateRoute>
+            <Route path="/contactUs">
+              <ContactUs></ContactUs>
             </Route>
             <Route path="/login">
               <Login></Login>

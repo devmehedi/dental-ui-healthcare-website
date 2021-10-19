@@ -5,12 +5,11 @@
     margin: 10px;
 }
 .service-title{
-    margin: 20px;
     padding: 20px;
     background-color: #55efc4;
     color: #636e72;
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 50px;
+    font-weight: 600;
 }
 .service-des{
     font-weight: 800;

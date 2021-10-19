@@ -15,7 +15,7 @@ const Service = ({ service }) => {
             <p>{description}</p>
             <p> <span className="service-des">Method:</span> {method} </p>
             <p> <span className="service-des">History: </span> {history}</p>
-
+            <button className="btn">Get Appointment</button>
         </div>
 
     );

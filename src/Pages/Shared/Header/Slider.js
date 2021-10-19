@@ -11,7 +11,7 @@ const Slider = () => {
                 <Carousel.Item>
                     <img
                         className="d-block  slider"
-                        src="https://image.freepik.com/free-photo/dentistry-healthcare-concept-male-dentist-showing-teeth-x-ray-female-patient-dental-white-clinic-room_496169-918.jpg"
+                        src="https://images.pexels.com/photos/4047077/pexels-photo-4047077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -22,7 +22,7 @@ const Slider = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100 slider"
-                        src="https://image.freepik.com/free-photo/two-dentists-doing-their-work-dentist-s-clinic_329181-20747.jpg"
+                        src="https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
                         alt="Second slide"
                     />
 
@@ -34,7 +34,7 @@ const Slider = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100 slider"
-                        src="https://media.istockphoto.com/photos/african-american-dentist-making-treatment-in-modern-clinic-picture-id1222938883?b=1&k=20&m=1222938883&s=170667a&w=0&h=MVJnjUyZa_oORpthvsqP3DKmd9mrjsDacIlnKgAknwA="
+                        src="https://images.pexels.com/photos/4021779/pexels-photo-4021779.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="Third slide"
                     />
 

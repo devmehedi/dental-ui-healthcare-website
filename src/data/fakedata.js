@@ -62,9 +62,9 @@ const services = [
     {
         id: 6,
         title: 'Cosmetic Dentistry',
-        doctor: 'Dubai',
+        doctor: 'Dr. Stephanie Wosniack',
         phone: '0800 123 45 458',
-        location: '528 tenth Avenue Boston, BT 58966',
+        location: 'Dubai',
         history: 'The history of orthodontics has been intimately linked with the history of dentistry for more than 2000 years. Dentistry, had its origins as a part of medicine. According to the AAO (American Association of Orthodontists), archaeologists have discovered mummified ancients with crude metal bands wrapped around individual teeth.',
         description: 'There are only 2 dental specialties that only focus on dental esthetics: Prosthodontics and Orthodontics',
         img: 'https://cdn4.iconfinder.com/data/icons/back-to-school-20/277/back-to-school-014-128.png',
