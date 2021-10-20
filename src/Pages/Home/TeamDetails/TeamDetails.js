@@ -1,7 +1,18 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
+import { useHistory } from 'react-router';
 import './TeamDetails.css';
+
+
+
 const TeamDetails = () => {
+    let history = useHistory();
+
+    const handleAbout = () => {
+        history.push("/about")
+    }
+
+
     return (
         <div>
             <h2 className="m-5 value-title">Our Team</h2>
@@ -21,7 +32,7 @@ const TeamDetails = () => {
                 </div>
 
             </div>
-            <Button className="btn" variant="secondary" size="lg" active>
+            <Button onClick={handleAbout} className="btn" variant="secondary" size="lg" active>
                 Team Details
             </Button>
         </div>

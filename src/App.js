@@ -10,10 +10,11 @@ import Footer from './Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 import AuthProvider from './contexts/AuthProvider';
 import Appointment from './Pages/Appointment/Appointment';
-import Login from './Login/Firebase/Login';
+import Login from './Login/Login';
 import Home from './Pages/Home/Home';
 import ContactUs from './Pages/ContactUs/ContactUs';
 import PrivateRoute from './Login/PrivateRoute/PrivateRoute';
+import Register from './Login/Register/Register';
 function App() {
   return (
     <div className="App">
@@ -38,6 +39,9 @@ function App() {
             </Route>
             <Route path="/login">
               <Login></Login>
+            </Route>
+            <Route path="/register">
+              <Register></Register>
             </Route>
             <Route exact path="/">
               <Home></Home>

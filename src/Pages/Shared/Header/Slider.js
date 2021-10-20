@@ -1,10 +1,18 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import { useHistory } from 'react-router';
 import './Slider.css';
 
 
 const Slider = () => {
+    let history = useHistory();
+
+    const handleAppointment = () => {
+        history.push("/appointment")
+    }
+
+
     return (
         <div>
             <Carousel className="slider-text">
@@ -43,7 +51,7 @@ const Slider = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-            <Button className="btn" variant="secondary" size="lg" active>
+            <Button onClick={handleAppointment} className="btn" variant="secondary" size="lg" active>
                 Make An Appointment
             </Button>
 

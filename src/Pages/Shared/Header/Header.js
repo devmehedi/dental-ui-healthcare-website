@@ -20,11 +20,11 @@ const Header = () => {
                         <Nav.Link className="nav" as={Link} to="/appointment">APPOINTMENT</Nav.Link>
                         <Nav.Link className="nav" as={Link} to="/contactUs">CONTACT US</Nav.Link>
                         {user?.email ?
-                            <Button className="logout
+                            <Button className="btn
                             " onClick={logOut} variant="light">LOGOUT</Button> :
                             <Nav.Link as={Link} to="/login">LOG IN</Nav.Link>}
                         <Navbar.Text className="">
-                            <span className="user">User:</span> <a href="#login">{user?.displayName}</a>
+                            {user.email && <span className="user">User:</span>} <a href="#login">{user?.displayName}</a>
                         </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>

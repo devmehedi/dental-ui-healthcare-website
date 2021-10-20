@@ -7,7 +7,7 @@ import './Service.css'
 const Service = ({ service }) => {
     let history2 = useHistory();
     const handleAppointment = () => {
-        history2.push("/services")
+        history2.push("/appointment")
     }
 
 
@@ -27,7 +27,7 @@ const Service = ({ service }) => {
             <p> <span className="service-des">Method:</span> {method} </p>
             <p> <span className="service-des">History: </span> {history}</p>
             <Button onClick={handleAppointment} className="btn" variant="secondary" size="lg" active>
-                More Details
+                Get Appointment
             </Button>
         </div>
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import './Appointment.css'
 const Appointment = () => {
+
+
     return (
         <div>
             <h2 className="appointment-title">Request an Appointment</h2>

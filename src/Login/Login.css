@@ -1,0 +1,9 @@
+.login-form{
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+form input{
+    margin: 10px;
+    border-radius: 5px;
+}
