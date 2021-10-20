@@ -34,9 +34,9 @@ function App() {
             <PrivateRoute path="/appointment">
               <Appointment></Appointment>
             </PrivateRoute>
-            <Route path="/contactUs">
+            <PrivateRoute path="/contactUs">
               <ContactUs></ContactUs>
-            </Route>
+            </PrivateRoute>
             <Route path="/login">
               <Login></Login>
             </Route>
