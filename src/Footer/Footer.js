@@ -21,11 +21,11 @@ const Footer = () => {
             </div>
             <div className="foot">
                 <h2>Social Link</h2>
-                <span className="social-icon"><i className="fab fa-facebook-square"></i></span>
-                <span className="social-icon"><i className="fab fa-instagram-square"></i></span>
-                <span className="social-icon"><i className="fab fa-twitter-square"></i></span>
+                <span className="social-icon"><a href="https://www.facebook.com/mehedi.hasanshowrov.14"><i className="fab fa-facebook-square"></i></a></span>
+                <span className="social-icon"><a href="https://www.instagram.com/mehedihasanshowro1/"><i className="fab fa-instagram-square"></i></a></span>
+                <span className="social-icon"><a href="https://twitter.com/?lang=en"><i className="fab fa-twitter-square"></i></a></span>
             </div>
-        </div>
+        </div >
     );
 };
 

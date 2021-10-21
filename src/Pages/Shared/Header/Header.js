@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Carousel, Container, Nav, Navbar, NavbarBrand } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
 import logoImg from '../logo.webp';

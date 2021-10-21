@@ -1,5 +1,4 @@
 import React from 'react';
-import { Card, Col, Row } from 'react-bootstrap';
 import Slider from '../Shared/Header/Slider';
 import './About.css';
 const About = () => {
@@ -27,7 +26,7 @@ const About = () => {
                 </div>
             </div>
             <h3 className="value-title mt-3 mb-3">Ask a question. Request an appointment.</h3>
-            <form className="form" onSubmit="">
+            <form className="form">
                 <input type="text" name="" id="" placeholder="Your Name" required />
                 <br />
                 <input type="text" name="" id="" placeholder="Your Email" required />
