@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className="footer">
-            <div>
+            <div className="foot">
                 <h2>Our Servicess</h2>
                 <li>Dental Implants</li>
                 <li>Braces</li>
@@ -11,7 +11,7 @@ const Footer = () => {
                 <li>Crowns and Bridges</li>
                 <li>Prevention</li>
             </div>
-            <div>
+            <div className="foot">
                 <h2>Our Doctores</h2>
                 <li>Dr. Daisy Gabriela</li>
                 <li>Dr. Addison Smith</li>
@@ -19,11 +19,11 @@ const Footer = () => {
                 <li>Dr.Sayed Miyad</li>
                 <li>See More Details........</li>
             </div>
-            <div>
+            <div className="foot">
                 <h2>Social Link</h2>
-                <span className="social-icon"><i class="fab fa-facebook-square"></i></span>
-                <span className="social-icon"><i class="fab fa-instagram-square"></i></span>
-                <span className="social-icon"><i class="fab fa-twitter-square"></i></span>
+                <span className="social-icon"><i className="fab fa-facebook-square"></i></span>
+                <span className="social-icon"><i className="fab fa-instagram-square"></i></span>
+                <span className="social-icon"><i className="fab fa-twitter-square"></i></span>
             </div>
         </div>
     );

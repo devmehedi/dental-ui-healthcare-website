@@ -14,7 +14,6 @@ import Login from './Login/Login';
 import Home from './Pages/Home/Home';
 import ContactUs from './Pages/ContactUs/ContactUs';
 import PrivateRoute from './Login/PrivateRoute/PrivateRoute';
-import Register from './Login/Register/Register';
 function App() {
   return (
     <div className="App">
@@ -39,9 +38,6 @@ function App() {
             </PrivateRoute>
             <Route path="/login">
               <Login></Login>
-            </Route>
-            <Route path="/register">
-              <Register></Register>
             </Route>
             <Route exact path="/">
               <Home></Home>

@@ -17,10 +17,10 @@ const TeamDetails = () => {
         <div>
             <h2 className="m-5 value-title">Our Team</h2>
             <div className="content">
-                <div className="">
+                <div>
                     <h3>Dr. Stephanie Wosniack</h3>
                     <h2><span className="team-heading">OUR</span> <span className="team-title">TEAM</span> </h2>
-                    <p>Dr. Mohammad Sarwar jaman is is dedicated to providing her patients with the best possible care. We at MediCare are focused on helping you. After receiving successful care for various aches and pains over the years, Dr. Wosniack found her calling to help others get well.</p>
+                    <p>Dr. Stephanie Wosniack is is dedicated to providing her patients with the best possible care. We at MediCare are focused on helping you. After receiving successful care for various aches and pains over the years, Dr. Wosniack found her calling to help others get well.</p>
                     <br />
                     <address>
                         <h4>United State</h4>

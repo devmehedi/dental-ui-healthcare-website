@@ -9,3 +9,10 @@
     font-weight: 700;
     color: #636e72;
 }
+
+@media (max-width:700px) {
+    .about-title{
+        font-size: 45px;
+        margin-top: 10px;
+    }
+}

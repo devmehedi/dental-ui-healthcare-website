@@ -4,11 +4,10 @@
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu95FmbJ7kf7Kgy9XYYQ4314hDzJVh7trgaA&usqp=CAU');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
     color: white;
-}
-.container{
-    margin: 20px;
 }
 .banner h2{
     font-size: 60px;
@@ -17,4 +16,14 @@
 .banner img{
     width: 300px;
     border-radius: 20px;
+}
+
+@media (max-width:750px) {
+    .banner h2{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .banner{
+        display: block;
+    }
 }

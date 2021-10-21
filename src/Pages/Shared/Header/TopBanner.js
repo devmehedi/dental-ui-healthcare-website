@@ -11,9 +11,9 @@ const TopBanner = () => {
 
 
     return (
-        <div className="">
+        <div>
             <div className="banner">
-                <div className="">
+                <div>
                     <h2>THE <span >RIGHT</span> PEDIATRICIAN</h2>
                     <h4>We at MediCare are always fully focused on helping your child and you to overcame any hurdle or any other problem.</h4>
                     <Button onClick={handleAbout} className="btn" variant="secondary" size="lg" active>
@@ -22,7 +22,6 @@ const TopBanner = () => {
                 </div>
                 <div>
                     <img src="https://yt3.ggpht.com/ytc/AKedOLQ-TfQ3t1-kxvAZ1P7eg7eS78fYMHfgiuFwbbph=s900-c-k-c0x00ffffff-no-rj" alt="" />
-
                 </div>
             </div>
 

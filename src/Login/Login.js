@@ -158,8 +158,8 @@ const Register = () => {
                 <br />
                 <button onClick={handleResetPassword} type="button" className="btn btn-secondary btn-sm">Reset Password</button>
             </form>
-            <br /><br /><br />
-            <div>-----------------------------</div>
+            <br />
+            <div>---------Please Sign In Different Way--------</div>
             <button className="btn" onClick={handleGoogleSignIn}>Google Sign In</button>
             <br />
             <button className="btn" onClick={handleGithubSignIn}>Git Hub Sign In</button>
