@@ -14,6 +14,7 @@ import Login from './Login/Login';
 import Home from './Pages/Home/Home';
 import ContactUs from './Pages/ContactUs/ContactUs';
 import PrivateRoute from './Login/PrivateRoute/PrivateRoute';
+import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
 function App() {
   return (
     <div className="App">
@@ -29,6 +30,9 @@ function App() {
             </Route>
             <PrivateRoute path="/services">
               <Services></Services>
+            </PrivateRoute>
+            <PrivateRoute path="/service/:serviceId">
+              <ServiceDetails></ServiceDetails>
             </PrivateRoute>
             <PrivateRoute path="/appointment">
               <Appointment></Appointment>

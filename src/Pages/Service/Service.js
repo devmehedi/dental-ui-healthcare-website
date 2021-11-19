@@ -1,19 +1,19 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
-import { useHistory } from 'react-router';
+import { Link } from 'react-router-dom';
 import './Service.css'
 
 
 const Service = ({ service }) => {
-    let history2 = useHistory();
-    const handleAppointment = () => {
-        history2.push("/services")
-    }
+    // let history2 = useHistory();
+    // const handleAppointment = () => {
+    //     history2.push("/services")
+    // }
 
 
-    const { title, doctor, phone, location, history, description, img, method, treatment } = service;
+    const { id, title, doctor, phone, location, history, description, img, method, treatment } = service;
 
-
+    const url = `/service/${id}`;
 
     return (
         <div className="service">
@@ -26,9 +26,11 @@ const Service = ({ service }) => {
             <p>{description}</p>
             <p> <span className="service-des">Method:</span> {method} </p>
             <p> <span className="service-des">History: </span> {history}</p>
-            <Button onClick={handleAppointment} className="btn" variant="secondary" size="lg" active>
-                More Details
-            </Button>
+            <Link to={url}>
+                <Button className="btn" variant="secondary" size="lg" active>
+                    More Details
+                </Button>
+            </Link>
         </div>
 
     );
